@@ -1,0 +1,32 @@
+{
+  "name": "phil-collins-target",
+  "version": "1.0.0",
+  "description": "Phil Collins target used in IoT & Javascript talk by Aden Forshaw. The server that the j5-scoreboard attaches to.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdenForshaw/Phil-Collins-Target.git"
+  },
+  "keywords": [
+    "arduino",
+    "serialport",
+    "socket.io",
+    "phil",
+    "collins"
+  ],
+  "author": "aden forshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdenForshaw/Phil-Collins-Target/issues"
+  },
+  "homepage": "https://github.com/AdenForshaw/Phil-Collins-Target#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "serialport": "^4.0.7",
+    "socket.io": "^1.7.2"
+  }
+}
